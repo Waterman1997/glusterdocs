@@ -183,7 +183,7 @@ operation to migrate data from the removed-bricks to the rest of the volume.
 
 **Replacing a brick in a _pure_ distribute volume**
 
-To replace a brick on a distribute only volume, add the new brick and then remove the brick you want to replace. This will trigger a rebalance operation which will move data from the removed brick.
+要替换分布式卷上的一个磁盘块，请添加新的磁盘块，然后删除您想要替换的磁盘块。这将触发重新平衡操作，该操作将移动从已删除的磁盘块中移除的数据。
 
 > NOTE: Replacing a brick using the 'replace-brick' command in gluster is supported only for distributed-replicate or _pure_ replicate volumes.
 
