@@ -179,7 +179,7 @@ operation to migrate data from the removed-bricks to the rest of the volume.
 
 <a name="replace-brick"></a>
 
-## Replace faulty brick
+## 更换有问题的brick
 
 **Replacing a brick in a _pure_ distribute volume**
 
